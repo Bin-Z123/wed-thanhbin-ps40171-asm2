@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.gt>a:hover{
+    text-decoration: underline;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    
+}
+.con{
+    font-family: "Quicksand", sans-serif;
+    /* font-variant: small-caps; */
+}
+.con>header{
+    position: fixed;
+    height: 130px;
+    width: 100%;
+    background-color: rgb(246, 246, 246);
+    /* background-color:  rgb(233, 233, 233); */
+    z-index: 1000;
+    transition: all 0.25s ease-in-out;
+    
+}
+
+/* thiết kế logo */
+#logo-fpt{
+    position: absolute;
+    top: 25px;
+    left: 80px;
+    width: 100px;
+    height: auto;
+    border-radius: 30%;
+}
+#logo1{
+    position: absolute;
+    right: -10px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    transform: rotate(270deg); 
+}
+
+/* thiết kế menu trên header */
+
+.con>header>#tt{
+    position: absolute;
+    top: 9px;
+    left: 400px;
+    width: 500px;
+
+}
+.con>header>#tt>#uudai>li{
+    list-style: none;
+}
+.con>header>#tt>#ultt>li{
+    list-style: none;
+
+    
+    
+    display: inline-block;
+}
+.con>header>#tt>#ultt>li>a{
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 35px;
+    margin: 12px;
+    color: black;
+    
+}
+.con>header>#tt>#uudai>li>a{
+    font-weight: 600;
+    text-decoration: none;
+    margin: 12px;
+    color: black;
+}
+.con>header>#tt>#ultt>li>a:hover{
+    text-decoration: underline;
+}
+.con>header>#tt>#uudai>li>a:hover{
+    text-decoration: underline;
+}
+
+
+/* Thiết kế menu nam */
+.menunam{
+    position: absolute;
+    display: none;
+    padding: 10px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 8px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1 gray;
+    border: solid 1px black;
+    
+}
+#menunam{
+    position: absolute;
+    display: none;
+    padding: 10px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 8px;
+    width: 280px;
+    background-color: white;
+    box-shadow: 0 0 1 gray;
+    border: solid 1px black;
+
+}
+#ultt>.menunam, #ultt>#menunam{
+    transition: all 0.25s ease-in-out;
+}
+
+.menunam>li>a, #menunam>li>a{
+    color: black;
+    font-weight: 500;
+    font-size: 13px;
+    padding: 0 10px;
+    line-height: 30px;
+    text-decoration: none;
+    display: block;
+
+}
+.menunam>li>a:hover, #menunam>li>a:hover{
+    text-decoration: underline;
+    display: block;
+ 
+}
+
+#ultt>li:hover>.menunam, #ultt>li:hover>#menunam, #uudai>li:hover>.menunam{
+    display: block;
+}
+#uudai{
+    width: 130px;
+}
+/* Search box */
+header>.box-search{
+    position: absolute;
+    right: 225px;
+    top: 20px;
+    background: white;
+    border-radius: 30px;
+    border: solid black 1px;
+}
+header>.box-search>#search{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 12px;
+    width: 0;
+    padding: 0;
+    transition: all 0.25s ease-in-out;
+    
+}
+header>.box-search:hover>#search, header>.box-search>#search:valid{
+    width: 180px;
+    padding: 5px 0 5px 15px;
+}
+header>.box-search>#search-bt{
+    background-color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+/* User */
+header>.user{
+    position: absolute;
+    right: 190px;
+    top: 20px;
+}
+header>.user>#dn{
+    font-size: 18px;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    border: solid black 1px;
+    border-radius: 30px;
+    padding-left:5px ;
+    padding-right: 5px;
+}
+header>.user>#dn:hover{
+    background: grey;
+}
+
+/* Gio Hang */
+header>.gio>#shop{
+    font-size: 18px;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    border: solid black 1px;
+    border-radius: 30px;
+    padding-left:5px ;
+    padding-right: 5px;
+}
+header>.gio{
+    position: absolute;
+    right: 150px;
+    top: 20px; 
+}
+header>.gio>#shop:hover{
+    background-color: gray;
+}
+
+/* Nav */
+.nav{
+    position: relative;
+    height: 180px;
+    max-width: 90%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+.tensp{
+    position: absolute;
+    left: 5px;
+    bottom: 12px;
+}
+.tensp>a{
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.gt{
+    position: absolute;
+    right: 5px;
+    bottom: 13px;
+}
+.gt>a{
+    font-weight: 650;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 5px;
+}
+
+/* Noi Dung */
+.noidung>.col{
+    width: 25%;
+    float: left;
+    
+}
+.col{
+    transition: transfrom 0.3s ease;
+}
+.col:hover{
+    border-radius: 10px;
+    transform: scale(1.07);
+    /* box-shadow: 0 0 5px white; */
+}
+.noidung>.col>.prod>img,.noidung>.col>.prod>a>  img{
+    width: 300px;
+    height: 300px;
+}
+.prod{
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+}
+
+.prod>img{
+    max-width: 98%;
+}
+.prod>.name{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.prod>.gia>a{
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.prod>.name>a{
+    font-size: 15px;
+    font-variant: normal;
+    color: black;
+    text-decoration: none;
+}

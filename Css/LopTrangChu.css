@@ -1,0 +1,41 @@
+/* Giày trang chủ */
+.giaytc{
+    display: block;
+    /* border-bottom: 1px solid black; */
+}
+#giaytc{
+    width: 100%;
+    height: auto;
+}
+
+.lop{
+    background-color: rgba(245, 222, 179, 0);
+    width: 100%;
+    margin: 0 auto;
+    height: 520px;
+    border-bottom: 1px black solid;
+
+}
+.spbc, .spud>a{
+    font-size: 18px;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.xemall, .xemall>a{
+    font-size: 14px;
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+}
+.block{
+    display: block;
+    width: 100%;
+    height: 400px;
+    background-color: rgba(0, 255, 255, 0);
+}
+

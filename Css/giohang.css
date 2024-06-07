@@ -1,0 +1,57 @@
+#anh-giohang{
+    width: 200px;
+    height: 200px;
+}
+table{
+    background-color: aliceblue;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+#anh-giohang-tbl{
+    width: 200px;
+}
+th>a{
+    color: black;
+    text-decoration: none;
+}
+#gia-giohang{
+    color: red;
+}
+#anh-giohang:hover{
+    transform: scale(1.02);
+}
+#tensp-giohang, #gia-giohang-tbl{
+    width: 300px;
+}
+/* Tong sp */
+#tongsp-giohang{
+    text-align: left;
+}
+table{
+    border-collapse: collapse;
+}
+
+#slsp-giohang{
+    width: 200px;
+}
+
+#tbl-tongsp{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* Mua Tat ca */
+.divmuangay>a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+.mua{
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.divmuangay{
+    margin-bottom:100px ;
+}

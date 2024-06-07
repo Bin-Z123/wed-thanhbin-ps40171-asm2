@@ -1,0 +1,37 @@
+/* DN-DK */
+.dn-dk>a{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline block;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+.dn-dk{
+    margin-top: 100px;
+}
+.dn-dk>a:hover{
+    background-color:  rgb(246, 246, 246);
+    font-weight: bold;
+}
+/* Đăng Nhập, Đăng kí */
+.div-dn,.div-dk{
+    margin-top: 50px;
+}
+.dn, .dk{
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+.qmk-login, .qmk-login>a{
+    font-size: 13px;
+    margin-top: 10px;
+}
+#note{
+    margin-top: 50px;
+}
