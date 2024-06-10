@@ -33,6 +33,7 @@ table{
 }
 
 #slsp-giohang{
+    line-height: 40px;
     width: 200px;
 }
 
@@ -54,4 +55,26 @@ table{
 }
 .divmuangay{
     margin-bottom:100px ;
+}
+
+#mua{
+    width: 100px;
+    /* margin-right: 10px; */
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid red;
+    background-color: rgb(255, 0, 0);
+}
+#them{
+    margin-top: 100px;
+}
+#them>#divmuangay a{
+    text-decoration: none;
+    color: white;
+}
+#mua:hover{
+    background-color: rgb(210, 0, 0);
+}
+#center{
+
 }
