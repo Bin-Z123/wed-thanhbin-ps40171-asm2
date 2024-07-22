@@ -55,11 +55,8 @@ body{
 }
 .con>header>#tt>#ultt>li{
     list-style: none;
-
-    
-    
     display: inline-block;
-}
+}   
 .con>header>#tt>#ultt>li>a{
     font-weight: 600;
     text-decoration: none;
@@ -283,4 +280,8 @@ header>.gio>#shop:hover{
     font-variant: normal;
     color: black;
     text-decoration: none;
+}
+footer{
+    background-color: rgb(230, 230, 230);
+    
 }
